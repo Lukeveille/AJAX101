@@ -1,0 +1,11 @@
+/* Main Elements */
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button,
+input {
+    font-size: 20px;
+    margin-top: 4%;
+    text-align: center;
+}
