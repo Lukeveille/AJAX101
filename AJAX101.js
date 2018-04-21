@@ -18,11 +18,11 @@ function newAjax() {
 
 function LoadMe() {
     var ajax = newAjax();
-    /*ajax.onreadystatechange = function() {
+    ajax.onreadystatechange = function() {
         if (ajax.readyState == 4 && ajax.status == 200) {
-            document.getElementById('myDiv').innerHTML =    ajax.responseText;
+            document.getElementById('myDiv').innerHTML = ajax.responseText;
         }
-    }*/
+    }
     ajax.open("GET", "http://lukeswebtest.coolpage.biz/mypage.html", true);
     ajax.send();
 }
